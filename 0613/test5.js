@@ -6,7 +6,7 @@ let minute = parseInt(input[1]);
 
 if (minute < 45) {
   hour -= 1;
-  minute += 15;
+  minute += 15; //60 - (45-minute)
   if (hour < 0) hour = 23;
 } else minute -= 45;
 
