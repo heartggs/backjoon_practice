@@ -9,4 +9,6 @@ for (let i = 1; i < num + 1; i++) {
   const stars = "*".repeat(i);
   result += space + stars + "\n";
 }
+
+
 console.log(result);
