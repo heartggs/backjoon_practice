@@ -1,3 +1,4 @@
+// 프린터 큐 [1966번]
 const fs = require("fs");
 const input = fs.readFileSync("/dev/stdin").toString().trim().split("\n");
 
